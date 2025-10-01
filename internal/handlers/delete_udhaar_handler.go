@@ -6,8 +6,6 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/harsh-karwar/udhaar-tracker-backend/internal/repository"
 )
-
-// DeleteUdhaar handles the DELETE /udhaars/:id endpoint.
 func DeleteUdhaar(c *gin.Context) {
 	userID := c.GetHeader("X-User-ID")
 	if userID == "" {
