@@ -53,6 +53,7 @@
    MONGO_URI=<your_mongo_uri>
    REDIS_ADDR=<your_redis_address>
    REDIS_PASSWORD=<your_redis_password>
+   JWT_SECREAT=<your_secreat>
    ```
 
 4. Run the application:
