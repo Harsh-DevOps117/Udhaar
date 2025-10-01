@@ -1,0 +1,40 @@
+# Golang .gitignore
+
+# Binaries for programs and plugins
+
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+
+*.test
+*.out
+
+# Dependency directories (remove the comment below if you use Go modules)
+
+/vendor/
+
+# Go workspace file
+
+go.work
+
+# Go module cache
+
+go.sum
+
+# Environment variables file
+
+.env
+
+# IDE/editor directories
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+
+*.log
